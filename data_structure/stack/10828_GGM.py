@@ -7,7 +7,6 @@ from sys import stdin, stdout
 
 class Stack:
     def __init__(self):
-
         self._arr = array("i", [0] * 10001)  # i == sint16
         self._top = -1
 
